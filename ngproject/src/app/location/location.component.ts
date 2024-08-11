@@ -3,6 +3,7 @@ import { LocationService } from './location.service';
 
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { error } from 'node:console';
 
 
 @Component({
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
   templateUrl: './location.component.html',
   styleUrl: './location.component.css'
 })
-export class LocationComponent implements OnInit{
+export class LocationComponent implements OnInit {
   locations: any;
 
   constructor(
@@ -24,4 +25,25 @@ export class LocationComponent implements OnInit{
   ngOnInit(): void {
     this.locations = this.locationService.getAllLocation();
   }
+
+  deleteLocation(id: string){
+    this.locationService.deleteLocation(id)
+    .subscribe({
+      next:res=>{
+        this.locations = this.locationService.getAllLocation();
+        this.router.navigate(['location/']);
+      },
+      error:error=>{
+        console.log(error);
+      }
+
+    })
+
+  }
+
+  updateLocation(id: string){
+    this.router.navigate(['updateLocation/',id]);
+  }
+  
+
 }

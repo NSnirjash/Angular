@@ -1,0 +1,220 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Nasif Shahriar",
+      "email": "nirjash@gmail/.com",
+      "password": "123456"
+    },
+    {
+      "id": "6883",
+      "name": "saddam",
+      "email": "nasif@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "locations": [
+    {
+      "id": "0",
+      "name": "Acme Fresh Start Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://angular.io/assets/images/tutorials/faa/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+      "availableUnits": 4,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "1",
+      "name": "A113 Transitional Housing",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": "2",
+      "name": "Warm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "https://angular.io/assets/images/tutorials/faa/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": "3",
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://angular.io/assets/images/tutorials/faa/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": "4",
+      "name": "Happy Homes Group",
+      "city": "Gary",
+      "state": "IN",
+      "photo": "https://angular.io/assets/images/tutorials/faa/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": "5",
+      "name": "Hopeful Apartment Group",
+      "city": "dhaka",
+      "state": "CA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "6",
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "7",
+      "name": "Hopeful Housing Solutions",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-GGupkreKwxA-unsplash.jpg",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "8",
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+      "availableUnits": 10,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": "9",
+      "name": "Capital Safe Towns",
+      "city": "Portland",
+      "state": "OR",
+      "photo": "https://angular.io/assets/images/tutorials/faa/webaliser-_TPTXZd9mOo-unsplash.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "e47e",
+      "name": "Arif Ishtiaq",
+      "city": "Rangpur",
+      "state": "Bakhtiarpur",
+      "photo": "",
+      "availableUnits": "2",
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": "5fde",
+      "name": "Nafis Ishrak",
+      "city": "Dhaka",
+      "state": "uttara",
+      "photo": "https://www.freepik.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#query=portrait&position=0&from_view=keyword&track=sph&uuid=2672c804-e2f3-4318-8791-b1eae013c648",
+      "availableUnits": "4",
+      "wifi": true,
+      "laundry": true
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Nirjash",
+      "email": "nirjash@gmail.com",
+      "cellNo": "01784054171",
+      "location": {
+        "id": "0",
+        "name": "Acme Fresh Start Housing",
+        "city": "Chicago",
+        "state": "IL",
+        "photo": "https://angular.io/assets/images/tutorials/faa/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+        "availableUnits": 4,
+        "wifi": true,
+        "laundry": true
+      }
+    },
+    {
+      "id": "2",
+      "name": "Neyemul",
+      "email": "neyemul@gmail.com",
+      "cellNo": "01784545252",
+      "location": {
+        "id": "1",
+        "name": "A113 Transitional Housing",
+        "city": "Santa Monica",
+        "state": "CA",
+        "photo": "https://angular.io/assets/images/tutorials/faa/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+        "availableUnits": 0,
+        "wifi": false,
+        "laundry": true
+      }
+    },
+    {
+      "id": "5a79",
+      "name": "Navid",
+      "email": "navid@gmail.com",
+      "cellNo": "12345678901",
+      "location": {
+        "id": "9",
+        "name": "Capital Safe Towns",
+        "city": "Portland",
+        "state": "OR",
+        "photo": "https://angular.io/assets/images/tutorials/faa/webaliser-_TPTXZd9mOo-unsplash.jpg",
+        "availableUnits": 6,
+        "wifi": true,
+        "laundry": true
+      }
+    },
+    {
+      "id": "6254",
+      "name": "navid",
+      "email": "navid@gmail.com",
+      "cellNo": "01303547093",
+      "location": {
+        "id": "9",
+        "name": "Capital Safe Towns",
+        "city": "Portland",
+        "state": "OR",
+        "photo": "https://angular.io/assets/images/tutorials/faa/webaliser-_TPTXZd9mOo-unsplash.jpg",
+        "availableUnits": 6,
+        "wifi": true,
+        "laundry": true
+      }
+    },
+    {
+      "id": "0765",
+      "name": "Arif",
+      "email": "arif@gmail.com",
+      "cellNo": "01303547093",
+      "location": {
+        "id": "e47e",
+        "name": "Arif Ishtiaq",
+        "city": "Rangpur",
+        "state": "Bakhtiarpur",
+        "photo": "",
+        "availableUnits": "2",
+        "wifi": true,
+        "laundry": true
+      }
+    }
+  ]
+}
