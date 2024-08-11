@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { location } from './location.model';
+import { Location } from './location.model';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +17,9 @@ export class LocationService {
   }
 
 
-  createLocation(location:location)
+  createLocation(location:Location): Observable<any>{
+    return this.httpClient.post(this.baseUrl,location);
+
+  }
   
 }
