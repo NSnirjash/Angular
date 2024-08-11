@@ -2,29 +2,38 @@
 
 <div class="container">
     <table class="table table-striped">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>City</th>
-            <th>State</th>
-            <th>Photo</th>
-            <th>Unit</th>
-            <th>Wifi</th>
-            <th>Laundry</th>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Photo</th>
+                <th>AvailableUnits</th>
+                <th>Wifi</th>
+                <th>Laundry</th>
+                <th>Action</th>
+            </tr>
+        </thead>
 
-        </tr>
+        <tbody>
+            <tr *ngFor="let location of locations |async">
+                <td>{{location.id}}</td>
+                <td>{{location.name}}</td>
+                <td>{{location.city}}</td>
+                <td>{{location.state}}</td>
+                <td>{{location.photo}}</td>
+                <td>{{location.availableUnits}}</td>
+                <td>{{location.wifi}}</td>
+                <td>{{location.laundry}}</td>
+                <td>
+                    <button class="btn btn-warning m-1 p-1" (click)="updateLocation(location.id)">Edit</button>
+                    <button class="btn btn-danger m-1 p-1" (click)="deleteLocation(location.id)">Delete</button>
 
-        <tr *ngFor="let location of locations |async">
-            <td>{{location.id}}</td>
-            <td>{{location.name}}</td>
-            <td>{{location.city}}</td>
-            <td>{{location.state}}</td>
-            <td>{{location.photo}}</td>
-            <td>{{location.availableUnits}}</td>
-            <td>{{location.wifi}}</td>
-            <td>{{location.laundry}}</td>
+                </td>
 
-        </tr>
+            </tr>
+        </tbody>
 
     </table>
 
