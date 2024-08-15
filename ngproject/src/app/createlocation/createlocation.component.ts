@@ -14,18 +14,64 @@ import { error } from 'node:console';
 export class CreatelocationComponent implements OnInit {
 
   location: Location = new Location();
+<<<<<<< HEAD
+  formValue !: FormGroup
+  locationData: any
+
+=======
   formValue !: FormGroup;
   locationData: any;
+>>>>>>> 16299edc7024596c25e0e17217cf58e0de6aacc9
 
   constructor(
     private locationService: LocationService,
     private router: Router,
+<<<<<<< HEAD
+    private httpClient: HttpClient,
+=======
     private httpCllient: HttpClient,
+>>>>>>> 16299edc7024596c25e0e17217cf58e0de6aacc9
     private formBuilder: FormBuilder
   ) {
 
   }
   ngOnInit(): void {
+<<<<<<< HEAD
+    this.formValue=this.formBuilder.group({
+      name:[''],
+      city:[''],
+      state:[''],
+      photo:[''],
+      availableUnits:[''],
+      wifi:[''],
+      laundry:['']
+    })
+    
+  }
+
+  createLocation(){
+
+    this.location.name=this.formValue.value.name;
+    this.location.city=this.formValue.value.city;
+    this.location.state=this.formValue.value.state;
+    this.location.photo=this.formValue.value.photo;
+    this.location.availableUnits=this.formValue.value.availableUnits;
+    this.location.wifi=this.formValue.value.wifi;
+    this.location.laundry=this.formValue.value.laundry;
+
+    this.locationService.createLocation(this.location)
+    .subscribe(
+      res=>{
+        console.log(res);
+        this.formValue.reset();
+      },
+      error=>{
+        console.log(error);
+      }
+
+    )
+
+=======
     this.formValue = this.formBuilder.group({
       name: [''],
       city: [''],
@@ -59,6 +105,7 @@ export class CreatelocationComponent implements OnInit {
           console.log(error)
         }
       })
+>>>>>>> 16299edc7024596c25e0e17217cf58e0de6aacc9
   }
 
 
