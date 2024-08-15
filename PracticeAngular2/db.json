@@ -185,22 +185,6 @@
       }
     },
     {
-      "id": "6254",
-      "name": "navid",
-      "email": "navid@gmail.com",
-      "cellNo": "01303547093",
-      "location": {
-        "id": "9",
-        "name": "Capital Safe Towns",
-        "city": "Portland",
-        "state": "OR",
-        "photo": "https://angular.io/assets/images/tutorials/faa/webaliser-_TPTXZd9mOo-unsplash.jpg",
-        "availableUnits": 6,
-        "wifi": true,
-        "laundry": true
-      }
-    },
-    {
       "id": "0765",
       "name": "Arif",
       "email": "arif@gmail.com",
